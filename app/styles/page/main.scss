@@ -1,0 +1,36 @@
+@use "../globals";
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .short-line {
+    width: 90px;
+    border: 5px solid globals.$secondary-color;
+    margin: 90px 0;
+  }
+}
+
+.featured-post {
+  font-size: globals.$sub-page-h1;
+}
+
+.more {
+  color: globals.$primary-color;
+  font-size: globals.$body-h4;
+}
+
+.align-title {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 78px 0;
+}
+
+.align-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 84px;
+}

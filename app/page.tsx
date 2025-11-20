@@ -2,13 +2,17 @@ import PostCard from "./_components/common/PostCard";
 
 export default function Home() {
   return (
-    <div>
-      <div className="featured-post">
-        <div>Featured Posts</div>
-        <div>More →</div>
+    <div className="main-content">
+      <div className="align-title">
+        <div className="featured-post">Featured Posts</div>
+        <div className="more">More →</div>
       </div>
-      <PostCard />
-      <PostCard />
+      <div className="align-card">
+        <PostCard />
+        <PostCard />
+      </div>
+
+      <div className="short-line" />
     </div>
   );
 }
