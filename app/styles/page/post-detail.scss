@@ -4,7 +4,7 @@
   @extend %align-column-center;
 
   .line {
-    width: 1109px;
+    width: globals.$post-width;
   }
 
   h1 {
@@ -26,7 +26,7 @@
 
 .detail-info {
   margin-left: 10px;
-  width: 1109px;
+  width: globals.$post-width;
 
   .link {
     margin-top: 60px;
@@ -52,7 +52,7 @@
 }
 
 .detail-text {
-  width: 1109px;
+  width: globals.$post-width;
   margin: 50px 0;
   font-size: 1.125rem;
   font-weight: 300;

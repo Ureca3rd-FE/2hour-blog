@@ -1,0 +1,22 @@
+@use "../globals";
+
+.share-container {
+  width: globals.$post-width;
+  @extend %align-space-between;
+  margin: 50px 0;
+}
+
+.sns-container {
+  @extend %align-row-center;
+  gap: 27px;
+}
+
+.sns {
+  @extend %align-row-center;
+  gap: 15px;
+}
+
+.tag-container {
+  display: flex;
+  gap: 22px;
+}
