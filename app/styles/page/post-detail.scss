@@ -1,0 +1,62 @@
+@use "../globals.scss";
+
+.post-detail {
+  @extend %align-column-center;
+
+  .line {
+    width: 1109px;
+  }
+
+  h1 {
+    margin: 15px 0 10px 0;
+  }
+
+  .author-time {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 14px;
+    color: globals.$black-50;
+    font-weight: 500;
+  }
+
+  .author {
+    color: globals.$secondary-color;
+  }
+}
+
+.detail-info {
+  margin-left: 10px;
+  width: 1109px;
+
+  .link {
+    margin-top: 60px;
+    display: flex;
+    gap: 5px;
+    color: globals.$black-50;
+    font-weight: 500;
+
+    .home {
+      color: globals.$primary-color-50;
+    }
+  }
+}
+
+.thumbnail {
+  width: 1109px;
+  height: 552px;
+  background-color: lightgray;
+}
+
+.detail-content {
+  @extend %align-column-center;
+}
+
+.detail-text {
+  width: 1109px;
+  margin: 50px 0;
+  font-size: 1.125rem;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}

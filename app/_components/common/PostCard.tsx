@@ -9,8 +9,8 @@ const mockPost = {
 const PostCard = () => {
   return (
     <div className="postcard">
-      <div className="post-thumbnail" />
-      <div className="post-content">
+      <div className="card-thumbnail" />
+      <div className="card-content">
         <div className="title">{mockPost.title}</div>
         <p>
           <span className="author">{mockPost.author}</span>
