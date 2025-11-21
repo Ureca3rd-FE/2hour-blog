@@ -1,3 +1,4 @@
+import MorePosts from "@/app/_components/post/MorePosts";
 import PostContent from "@/app/_components/post/PostContent";
 import Share from "@/app/_components/post/Share";
 
@@ -7,6 +8,7 @@ const PostDetail = () => {
       <PostContent />
       <div className="line" />
       <Share />
+      <MorePosts />
     </div>
   );
 };
