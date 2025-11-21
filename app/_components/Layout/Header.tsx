@@ -1,8 +1,11 @@
+import Image from "next/image";
+import logo from "@/public/images/logo.svg";
+
 const Header = () => {
   return (
     <div className="header">
       <div className="layout-items">
-        <div>logo</div>
+        <Image src={logo} alt="logo" />
         <div className="header-menu">
           <div>Menu</div>
           <div>Menu</div>

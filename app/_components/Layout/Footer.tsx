@@ -1,8 +1,11 @@
+import Image from "next/image";
+import logo from "@/public/images/logo-white.svg";
+
 const Footer = () => {
   return (
     <div className="footer">
       <div className="layout-items">
-        <div>logo</div>
+        <Image src={logo} alt="logo" />
         <div className="footer-menu">
           <div className="left">Additional Link</div>
           <div className="center">Additional Link</div>

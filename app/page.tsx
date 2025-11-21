@@ -1,3 +1,5 @@
+import Image from "next/image";
+import arrow from "@/public/images/arrow.svg";
 import PostCard from "./_components/common/PostCard";
 
 export default function Home() {
@@ -5,7 +7,10 @@ export default function Home() {
     <div className="main-content">
       <div className="align-title">
         <div className="featured-post">Featured Posts</div>
-        <div className="more">More →</div>
+        <div className="more">
+          More
+          <Image src={arrow} alt="arrow" />
+        </div>
       </div>
       <div className="align-card">
         <PostCard />

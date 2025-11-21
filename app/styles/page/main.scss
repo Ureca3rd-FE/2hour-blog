@@ -18,6 +18,10 @@
 }
 
 .more {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
   color: globals.$primary-color;
   font-size: globals.$body-h4;
 }
