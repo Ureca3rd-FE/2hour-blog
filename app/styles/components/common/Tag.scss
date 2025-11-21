@@ -1,0 +1,9 @@
+@use "../../globals";
+
+.tag {
+  padding: 8px 15px;
+  background-color: globals.$gray-op-50;
+  color: globals.$black-50;
+  font-weight: 500;
+  border-radius: 30px;
+}

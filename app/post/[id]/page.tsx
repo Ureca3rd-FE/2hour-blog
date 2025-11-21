@@ -1,3 +1,5 @@
+import Tag from "@/app/_components/common/Tag";
+
 const mockPost = {
   title: "Post Title",
   author: "Author",
@@ -37,6 +39,8 @@ const PostDetail = () => {
         </div>
       </div>
       <div className="line" />
+
+      <Tag text="design" />
     </div>
   );
 };
