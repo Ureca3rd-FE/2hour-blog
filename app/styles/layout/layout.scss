@@ -6,7 +6,20 @@
   height: 60px;
   justify-content: space-between;
   align-items: center;
-  .copyright {
-    color: rgba(256, 256, 256, 0.8);
-  }
+}
+
+.layout-item {
+  display: flex;
+  width: 33.3%;
+}
+
+.search,
+.copyright {
+  width: 33.3%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copyright {
+  color: rgba(256, 256, 256, 0.8);
 }

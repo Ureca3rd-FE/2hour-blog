@@ -8,7 +8,7 @@
 }
 
 .footer-menu {
-  display: flex;
+  @extend %align-row-center;
   color: white;
   gap: 4rem;
 }

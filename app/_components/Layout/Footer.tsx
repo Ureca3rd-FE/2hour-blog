@@ -5,10 +5,12 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="layout-items">
-        <Image src={logo} alt="logo" />
-        <div className="footer-menu">
-          <div className="left">Additional Link</div>
-          <div className="center">Additional Link</div>
+        <div className="layout-item">
+          <Image src={logo} alt="logo" />
+        </div>
+        <div className="footer-menu layout-item">
+          <div>Additional Link</div>
+          <div>Additional Link</div>
           <div>Additional Link</div>
         </div>
         <div className="copyright">© Your Company 2022. We love you!</div>

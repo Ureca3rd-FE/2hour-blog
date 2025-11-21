@@ -12,17 +12,18 @@
 }
 
 .header-menu {
-  display: flex;
+  @extend %align-row-center;
   color: globals.$primary-color;
   gap: 4rem;
 }
 
-.search {
+.search-input {
   border-radius: 5px;
   background-color: globals.$primary-color;
   display: flex;
   align-items: center;
   height: 40px;
+  width: 310px;
 
   div {
     color: white;

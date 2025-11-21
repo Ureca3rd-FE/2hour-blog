@@ -5,16 +5,20 @@ const Header = () => {
   return (
     <div className="header">
       <div className="layout-items">
-        <Image src={logo} alt="logo" />
-        <div className="header-menu">
+        <div className="layout-item">
+          <Image src={logo} alt="logo" />
+        </div>
+        <div className="header-menu layout-item">
           <div>Menu</div>
           <div>Menu</div>
           <div>Menu</div>
           <div>Menu</div>
         </div>
         <div className="search">
-          <div>Search</div>
-          <input />
+          <div className="search-input">
+            <div>Search</div>
+            <input />
+          </div>
         </div>
       </div>
       <div className="line" />
