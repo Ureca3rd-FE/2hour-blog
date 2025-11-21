@@ -5,3 +5,34 @@ $black-80: rgba(0, 0, 0, 0.8);
 
 $sub-page-h1: 48px;
 $body-h4: 24px;
+
+%align-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%align-column-center {
+  @extend %align-row-center;
+  flex-direction: column;
+}
+
+%align-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+%flex-row {
+  display: flex;
+  align-items: center;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: var(--font-montserrat), sans-serif;
+  margin: 0;
+}

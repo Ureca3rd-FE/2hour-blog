@@ -1,0 +1,12 @@
+@use "../globals";
+
+.layout-items {
+  display: flex;
+  width: 90%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  .copyright {
+    color: rgba(256, 256, 256, 0.8);
+  }
+}
