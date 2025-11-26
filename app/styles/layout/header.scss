@@ -1,6 +1,6 @@
 @use "../globals";
 
-.header {
+header {
   @extend %align-column-center;
   margin-top: 24px;
 }

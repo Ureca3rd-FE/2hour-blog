@@ -1,6 +1,6 @@
 @use "../globals";
 
-.footer {
+footer {
   @extend %align-column-center;
   height: 264px;
   background-color: rgba(0, 0, 0, 0.8);

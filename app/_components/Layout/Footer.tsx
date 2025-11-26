@@ -3,7 +3,7 @@ import logo from "@/public/images/logo-white.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer>
       <div className="layout-items">
         <div className="layout-item">
           <Image src={logo} alt="logo" />
@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className="copyright">© Your Company 2022. We love you!</div>
       </div>
-    </div>
+    </footer>
   );
 };
 
