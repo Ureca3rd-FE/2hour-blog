@@ -1,0 +1,14 @@
+@use "../globals";
+
+footer {
+  @extend %align-column-center;
+  height: 264px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.footer-menu {
+  @extend %align-row-center;
+  color: white;
+  gap: 4rem;
+}

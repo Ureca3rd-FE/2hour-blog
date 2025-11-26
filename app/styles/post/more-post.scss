@@ -1,0 +1,19 @@
+@use "../globals";
+
+.more-title {
+  font-size: 24px;
+  text-align: left;
+  width: globals.$post-width;
+}
+
+.more-post {
+  @extend %align-row-center;
+  gap: 55px;
+  margin: 28px 49px;
+}
+
+.preview-thumbnail {
+  width: 333px;
+  height: 166px;
+  background-color: lightgray;
+}

@@ -1,0 +1,94 @@
+@use "../globals.scss";
+
+.comment-container {
+  width: globals.$post-width;
+
+  h1 {
+    font-weight: 500;
+  }
+
+  margin-bottom: 139px;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.comment-area {
+  @extend %align-space-between;
+  width: globals.$comment-width;
+  margin: 28px 0;
+}
+
+@mixin input($width: 154px) {
+  box-sizing: border-box;
+  border: 1px solid globals.$black-50;
+  border-radius: 5px;
+  height: 40px;
+  width: $width;
+  font-family: var(--font-montserrat);
+
+  &::placeholder {
+    color: globals.$black-50;
+    text-align: center;
+  }
+}
+
+.input-username {
+  @include input($width: 154px);
+}
+
+.input-comment {
+  @include input($width: 437px);
+}
+
+.button-submit {
+  width: 133px;
+  height: 40px;
+  color: white;
+
+  background-color: globals.$primary-color;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+.comment-block {
+  width: globals.$comment-width;
+  background-color: globals.$gray-op-30;
+  border-radius: 5px;
+  min-height: 143px;
+  display: flex;
+  font-size: 18px;
+}
+
+.profile-area {
+  @extend %align-column-center;
+  margin: 0 20px;
+}
+
+.comment-content-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-content {
+  margin-top: 30px;
+  width: 629px;
+}
+
+.comment-under {
+  display: flex;
+  gap: 18px;
+}
+
+.comment-reply {
+  color: globals.$black-50;
+}
+
+.comment-time {
+  color: globals.$primary-color-50;
+}

@@ -1,0 +1,48 @@
+@use "../../globals";
+
+.postcard {
+  width: 686px;
+  height: 655px;
+
+  border: 1px solid globals.$black-50;
+  border-radius: 10px;
+}
+
+.card-thumbnail {
+  width: 686px;
+  height: 400px;
+  background-color: lightgray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 35px;
+
+  div,
+  p {
+    width: 558px;
+  }
+
+  .title {
+    font-size: globals.$body-h4;
+  }
+
+  .author {
+    color: globals.$secondary-color;
+    margin-right: 20px;
+  }
+
+  .created-at {
+    color: globals.$black-50;
+  }
+
+  .content {
+    margin-top: 30px;
+    color: globals.$black-80;
+  }
+}

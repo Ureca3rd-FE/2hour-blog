@@ -1,0 +1,35 @@
+@use "../globals";
+
+.main-content {
+  @extend %align-column-center;
+
+  .short-line {
+    width: 90px;
+    border: 5px solid globals.$secondary-color;
+    border-radius: 5px;
+    margin: 90px 0;
+  }
+}
+
+.featured-post {
+  font-size: globals.$sub-page-h1;
+}
+
+.more {
+  @extend %align-row-center;
+  gap: 12px;
+
+  color: globals.$primary-color;
+  font-size: globals.$body-h4;
+}
+
+.align-title {
+  width: 90vw;
+  @extend %align-space-between;
+  margin: 78px 0;
+}
+
+.align-card {
+  @extend %align-space-between;
+  gap: 84px;
+}

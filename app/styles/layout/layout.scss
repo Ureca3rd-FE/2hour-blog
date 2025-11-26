@@ -1,0 +1,25 @@
+@use "../globals";
+
+.layout-items {
+  display: flex;
+  width: 90%;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout-item {
+  display: flex;
+  width: 33.3%;
+}
+
+.search,
+.copyright {
+  width: 33.3%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copyright {
+  color: rgba(256, 256, 256, 0.8);
+}

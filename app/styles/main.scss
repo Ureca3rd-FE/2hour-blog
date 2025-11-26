@@ -1,0 +1,15 @@
+@use "globals";
+
+@use "components/common/postcard";
+@use "components/common/Tag";
+
+@use "post/share";
+@use "post/more-post";
+@use "post/comment";
+
+@use "layout/header";
+@use "layout/footer";
+@use "layout/layout";
+
+@use "page/main-page";
+@use "page/post-detail";
